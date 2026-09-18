@@ -1,0 +1,16 @@
+[package]
+name = "olympus-analytics-engine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+
+[workspace]
+members = [
+    "crates/oae-core",
+    "crates/oae-analytics",
+    "crates/oae-api",
+    "crates/oae-storage", "crates/oae-data",
+]
+
+resolver = "3"
