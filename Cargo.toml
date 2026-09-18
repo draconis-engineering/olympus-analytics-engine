@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+oae-core = { path = "crates/oae-core" }
+oae-storage = { path = "crates/oae-storage" }
 
 [workspace]
 members = [
