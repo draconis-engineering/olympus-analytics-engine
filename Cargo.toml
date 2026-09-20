@@ -5,7 +5,10 @@ edition = "2024"
 
 [dependencies]
 oae-core = { path = "crates/oae-core" }
+oae-data = { path = "crates/oae-data" }
 oae-storage = { path = "crates/oae-storage" }
+tempfile = "3.27"
+fitparser = "0.11.0"
 
 [workspace]
 members = [
